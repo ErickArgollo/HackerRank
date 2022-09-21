@@ -34,7 +34,6 @@ const s = '06:45:54AM'
 //retorno 00:01:00
 
 function timeConversion() {
-
     const newArray = s.split(':');
     const hour = newArray[0];
     const hourToNumber = Number(hour);
